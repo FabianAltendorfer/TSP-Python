@@ -1,0 +1,14 @@
+The Traveling Salesperson Problem (TSP) is a classic example of a combinatorial optimization problem within the field of 
+computer science and operations research. It poses a simple yet complex question: given a list of cities and the distances between each pair of them, what is 
+the shortest possible route that visits each city exactly once and returns to the origin city? Despite its straightforward presentation, the TSP is notoriously 
+difficult to solve as the number of potential routes increases factorially with the number of cities, making it infeasible to solve by brute force for all but 
+the smallest instances. The TSP is known to be NP-hard, which implies that there is no known algorithm capable of solving all instances of the problem in 
+polynomial time. Its significance extends beyond theoretical interest; it models numerous real-world problems, from logistics and transportation to the arrangement 
+of manufacturing processes, making its study both practical and essential for finding efficient solutions to complex routing problems.
+
+
+Possible Solutions: Optimal, Approximation and Heuristic.
+- Approximation means we have a quality guarantee but we probably won't get to the optimal solution.
+- With a Heuristic we get a reasonable good solution in a reasonable amount of time.
+
+In this repo I use a Construction Heuristic. In particular a greedy construction heuristic.
